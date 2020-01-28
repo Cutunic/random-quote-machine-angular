@@ -1,0 +1,15 @@
+<div class="display shadow">
+    <h1 class="quote">
+        {{ quote.quote}}
+    </h1>
+    <h3 class="author">
+        {{ quote.author }}
+    </h3>
+    <div class="buttons">
+        <div class="facebook" (click)="onFacebook()"><i class="fab fa-facebook-square fa-2x i-shadow"></i></div>
+        <div class="twitter" (click)="onTwitter()"><i class="fab fa-twitter-square fa-2x i-shadow"></i></div>
+        
+        <div class="new-quote shadow" (click)="onNewQuote()">New Quote</div>
+    </div>
+
+</div>
